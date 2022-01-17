@@ -1,0 +1,9 @@
+/* 
+  Default.strings
+  DatingAppV2
+
+  Created by Edward Suwirya on 1/16/22.
+  
+*/
+"createAccount.button.title" = "Create Account";
+"signIn.button.title" = "Sign In";

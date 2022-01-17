@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  DatingAppV2
+
+  Created by Edward Suwirya on 1/17/22.
+  
+*/
+"createAccount.button.title" = "Daftar";
+"signIn.button.title" = "Masuk";
+"whatEmail.label.title" = "Masukan email kamu";
+"andPassword.label.title" = "Dan password";
+
+"tc.label.title" = "Dengan membuat akun atau masuk ke aplikasi ini, berarti menyetujui syarat & ketentuan. Pelajari bagaimana kita mengolah data pengguna di Privacy Policy";
+"verifiedEmailNotif.label.title" = "Jangan sampai kehilangan akses akun kamu dengan melakukan verifikasi email";

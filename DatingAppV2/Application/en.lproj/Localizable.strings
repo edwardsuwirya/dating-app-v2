@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  DatingAppV2
+
+  Created by Edward Suwirya on 1/17/22.
+  
+*/
+"createAccount.button.title" = "Create Account";
+"signIn.button.title" = "Sign In";
+"whatEmail.label.title" = "What is your email";
+"andPassword.label.title" = "And password";
+
+"tc.label.title" = "By tapping Create Account or Sign In, you agree to our Terms. Learn how we process your data in our Privacy Policy";
+"verifiedEmailNotif.label.title" = "Don't loose access to your account, verified your email";
