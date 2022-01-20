@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		506ED5A52798FEFE00DCEE83 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506ED5A42798FEFE00DCEE83 /* WelcomeViewModel.swift */; };
+		506ED5A82799005B00DCEE83 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 506ED5A72799005B00DCEE83 /* RxCocoa */; };
+		506ED5AA2799005B00DCEE83 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 506ED5A92799005B00DCEE83 /* RxRelay */; };
+		506ED5AC2799005B00DCEE83 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 506ED5AB2799005B00DCEE83 /* RxSwift */; };
+		506ED5AF2799025300DCEE83 /* WelcomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506ED5AE2799025300DCEE83 /* WelcomeUseCase.swift */; };
+		506ED5B2279902A300DCEE83 /* WelcomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506ED5B1279902A300DCEE83 /* WelcomeRepository.swift */; };
+		506ED5B52799034600DCEE83 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506ED5B42799034600DCEE83 /* Member.swift */; };
+		506ED5B82799138B00DCEE83 /* WelcomeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506ED5B72799138B00DCEE83 /* WelcomeAssembly.swift */; };
 		507106D62792675000B5A4B4 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 507106D52792675000B5A4B4 /* Swinject */; };
 		507106DB27926AC400B5A4B4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507106D927926AC400B5A4B4 /* WelcomeViewController.swift */; };
 		507106DC27926AC400B5A4B4 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507106DA27926AC400B5A4B4 /* WelcomeViewController.xib */; };
 		507106DF279271EB00B5A4B4 /* CreateAccountModuleLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 507106DE279271EB00B5A4B4 /* CreateAccountModuleLibrary */; };
 		507106E227927E2400B5A4B4 /* BaseNetworkLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 507106E127927E2400B5A4B4 /* BaseNetworkLibrary */; };
 		507106E527928DD700B5A4B4 /* AssemblerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507106E427928DD700B5A4B4 /* AssemblerManager.swift */; };
-		507106E727928F0A00B5A4B4 /* WelcomeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507106E627928F0A00B5A4B4 /* WelcomeAssembly.swift */; };
 		507106ED2792994A00B5A4B4 /* CoreDataLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 507106EC2792994A00B5A4B4 /* CoreDataLibrary */; };
 		50710AE0279500F400547BFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50710AE2279500F400547BFE /* Localizable.strings */; };
 		50710AEA2795058F00547BFE /* UtilLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 50710AE92795058F00547BFE /* UtilLibrary */; };
@@ -50,12 +57,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		506ED5A42798FEFE00DCEE83 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		506ED5AE2799025300DCEE83 /* WelcomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeUseCase.swift; sourceTree = "<group>"; };
+		506ED5B1279902A300DCEE83 /* WelcomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRepository.swift; sourceTree = "<group>"; };
+		506ED5B42799034600DCEE83 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		506ED5B72799138B00DCEE83 /* WelcomeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeAssembly.swift; sourceTree = "<group>"; };
 		507106D927926AC400B5A4B4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		507106DA27926AC400B5A4B4 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		507106DD279271DA00B5A4B4 /* CreateAccountModuleLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CreateAccountModuleLibrary; path = ../CreateAccountModuleLibrary; sourceTree = "<group>"; };
 		507106E027927DAB00B5A4B4 /* BaseNetworkLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BaseNetworkLibrary; path = ../BaseNetworkLibrary; sourceTree = "<group>"; };
 		507106E427928DD700B5A4B4 /* AssemblerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblerManager.swift; sourceTree = "<group>"; };
-		507106E627928F0A00B5A4B4 /* WelcomeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeAssembly.swift; sourceTree = "<group>"; };
 		507106E92792985500B5A4B4 /* CoreDataLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CoreDataLibrary; path = ../CoreDataLibrary; sourceTree = "<group>"; };
 		50710AE1279500F400547BFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		50710AE52795028000547BFE /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Main.strings; sourceTree = "<group>"; };
@@ -86,12 +97,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506ED5AA2799005B00DCEE83 /* RxRelay in Frameworks */,
 				507106ED2792994A00B5A4B4 /* CoreDataLibrary in Frameworks */,
+				506ED5AC2799005B00DCEE83 /* RxSwift in Frameworks */,
 				507106E227927E2400B5A4B4 /* BaseNetworkLibrary in Frameworks */,
 				50E9C2582792646A00FAE8B1 /* LoginModuleLibrary in Frameworks */,
 				50710AEA2795058F00547BFE /* UtilLibrary in Frameworks */,
 				507106D62792675000B5A4B4 /* Swinject in Frameworks */,
 				507106DF279271EB00B5A4B4 /* CreateAccountModuleLibrary in Frameworks */,
+				506ED5A82799005B00DCEE83 /* RxCocoa in Frameworks */,
 				50D990B92792AEBA00C93C6E /* AppViewLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,6 +127,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		506ED5AD2799023E00DCEE83 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				506ED5AE2799025300DCEE83 /* WelcomeUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		506ED5B02799028A00DCEE83 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				506ED5B1279902A300DCEE83 /* WelcomeRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		506ED5B32799033800DCEE83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				506ED5B42799034600DCEE83 /* Member.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		506ED5B62799137B00DCEE83 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				506ED5B72799138B00DCEE83 /* WelcomeAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
 		507106D727926AA000B5A4B4 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,8 +171,13 @@
 		507106D827926AAF00B5A4B4 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				506ED5B62799137B00DCEE83 /* DI */,
+				506ED5B32799033800DCEE83 /* Model */,
+				506ED5B02799028A00DCEE83 /* Repository */,
+				506ED5AD2799023E00DCEE83 /* UseCase */,
 				507106D927926AC400B5A4B4 /* WelcomeViewController.swift */,
 				507106DA27926AC400B5A4B4 /* WelcomeViewController.xib */,
+				506ED5A42798FEFE00DCEE83 /* WelcomeViewModel.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -135,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				507106E427928DD700B5A4B4 /* AssemblerManager.swift */,
-				507106E627928F0A00B5A4B4 /* WelcomeAssembly.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -265,6 +315,9 @@
 				507106EC2792994A00B5A4B4 /* CoreDataLibrary */,
 				50D990B82792AEBA00C93C6E /* AppViewLibrary */,
 				50710AE92795058F00547BFE /* UtilLibrary */,
+				506ED5A72799005B00DCEE83 /* RxCocoa */,
+				506ED5A92799005B00DCEE83 /* RxRelay */,
+				506ED5AB2799005B00DCEE83 /* RxSwift */,
 			);
 			productName = DatingAppV2;
 			productReference = 50E9C21627925A1F00FAE8B1 /* DatingAppV2.app */;
@@ -341,6 +394,7 @@
 			mainGroup = 50E9C20D27925A1F00FAE8B1;
 			packageReferences = (
 				507106D42792675000B5A4B4 /* XCRemoteSwiftPackageReference "Swinject" */,
+				506ED5A62799005B00DCEE83 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 50E9C21727925A1F00FAE8B1 /* Products */;
 			projectDirPath = "";
@@ -387,10 +441,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506ED5B2279902A300DCEE83 /* WelcomeRepository.swift in Sources */,
+				506ED5AF2799025300DCEE83 /* WelcomeUseCase.swift in Sources */,
 				507106DB27926AC400B5A4B4 /* WelcomeViewController.swift in Sources */,
-				507106E727928F0A00B5A4B4 /* WelcomeAssembly.swift in Sources */,
+				506ED5A52798FEFE00DCEE83 /* WelcomeViewModel.swift in Sources */,
+				506ED5B82799138B00DCEE83 /* WelcomeAssembly.swift in Sources */,
 				5083F4EA279406130051BD2A /* Navigation+Extension.swift in Sources */,
 				50E9C21E27925A1F00FAE8B1 /* ViewController.swift in Sources */,
+				506ED5B52799034600DCEE83 /* Member.swift in Sources */,
 				507106E527928DD700B5A4B4 /* AssemblerManager.swift in Sources */,
 				50E9C21A27925A1F00FAE8B1 /* AppDelegate.swift in Sources */,
 				50E9C21C27925A1F00FAE8B1 /* SceneDelegate.swift in Sources */,
@@ -773,6 +831,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		506ED5A62799005B00DCEE83 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 		507106D42792675000B5A4B4 /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject.git";
@@ -784,6 +850,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		506ED5A72799005B00DCEE83 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 506ED5A62799005B00DCEE83 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		506ED5A92799005B00DCEE83 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 506ED5A62799005B00DCEE83 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		506ED5AB2799005B00DCEE83 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 506ED5A62799005B00DCEE83 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
 		507106D52792675000B5A4B4 /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 507106D42792675000B5A4B4 /* XCRemoteSwiftPackageReference "Swinject" */;

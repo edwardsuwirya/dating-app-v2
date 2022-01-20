@@ -18,10 +18,10 @@ class AssemblerManager{
         CoreDataLibrary().dataAssembly(),
         BaseNetworkLibrary().networkAssembly(),
         WelcomeAssembly(),
-        CreateAccountModuleLibrary().createAccountAssembly()
+        CreateAccountModuleLibrary().createAccountAssembly(),
+        
     ],container: container)
     
     static let welcomeVC = assembler.resolver.resolve(WelcomeViewController.self)
     static let createAccountVC = assembler.resolver.resolve(CreateAccountViewController.self)
-    static let dbContext = assembler.resolver.resolve(NSManagedObjectContext.self)
 }

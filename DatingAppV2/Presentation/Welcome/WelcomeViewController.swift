@@ -8,15 +8,15 @@
 import UIKit
 import CreateAccountModuleLibrary
 import LoginModuleLibrary
+import RxSwift
 
 class WelcomeViewController: UIViewController {
-    
     @IBOutlet weak var createAccountButton: UIButton!
-    
     @IBOutlet weak var signInButton: UIButton!
-    
     @IBOutlet weak var termCondtionLabel: UILabel!
-    var memberId:String?
+    
+    var welcomeViewModel:WelcomeViewModel?
+    let dispose = DisposeBag()
     override func viewDidLoad() {
         super.viewDidLoad()
         createAccountButton.addTarget(self, action: #selector(didSignInSignUpButtonClick), for: .touchUpInside)
@@ -28,15 +28,26 @@ class WelcomeViewController: UIViewController {
         self.signInButton.setTitle(Constants.signInButtonTitle.localized,for: .normal)
         self.createAccountButton.setTitle(Constants.createAccountButtonTitle.localized, for: .normal)
         self.termCondtionLabel.text = Constants.tcLabelTitle.localized
+        
+        welcomeViewModel?.existingMemberSubject
+            .observe(on: MainScheduler.instance)
+            .subscribe({ member in
+                if let m = member.element{
+                    if m == nil{
+                        self.doShowSignUp()
+                    }else{
+                        self.doShowSignIn()
+                    }
+                }else{
+                    self.doShowSignIn()
+                }
+            })
+            .disposed(by: dispose)
     }
     
     
     @objc func didSignInSignUpButtonClick(_ sender: UIButton) {
-        if self.memberId == nil{
-            doShowSignUp()
-        }else{
-            doShowSignIn()
-        }
+        welcomeViewModel?.doSignUpSignIn()
     }
     func doShowSignUp(){
         guard let createAccountVc = AssemblerManager.createAccountVC else {return}
@@ -48,5 +59,4 @@ class WelcomeViewController: UIViewController {
         loginVc.title = Constants.signInButtonTitle.localized
         self.pushNavigate(viewController: loginVc)
     }
-    
 }
